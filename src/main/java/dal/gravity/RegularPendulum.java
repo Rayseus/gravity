@@ -38,6 +38,4 @@ public class RegularPendulum extends AbstractPendulum {
     public double getLastAcceleration () { return lastAccel; }
     public double getLastTime () { return iterations*delta; }
     public double getDissipationConstant () { return dissipation; }
-
-
 }
